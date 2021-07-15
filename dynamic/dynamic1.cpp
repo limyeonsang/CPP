@@ -9,6 +9,8 @@ int main() {
     *mem = 10;
     cout << *mem << endl;
 
+    delete mem;
+
     int* amem = new int[10]; // 4*10 byte by array form
     for(int i=0;i<10;i++) {
         *(amem+i) = i;
