@@ -11,18 +11,17 @@ int main() {
     double d = 6.0e-10; // 6.0 * 10^-10
 
     // Octall: 8
-    // Decimal: 10
-    // Hexa: 16
-
     int x = 0b1010'1010'1010 ;
     cout << x << endl;
-
+    // Decimal: 10
     int y = 012; 
     cout << y << endl;
-
+    // Hexa: 16
     int z = 0xF;
     cout << z << endl;
     
+    int num_items = 123;
+    int price = num_items * 10;
 
 
     return 0;

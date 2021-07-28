@@ -13,8 +13,10 @@ int main() {
 
     // if logic is easy, better then for loop to init const
     const int conditionalPrice = (onSale==true) ? 10:100;
+    cout << conditionalPrice << endl;
 
     const int forPrice = getPrice(true);
+    cout << forPrice << endl;
 
 
     int x = 5;
